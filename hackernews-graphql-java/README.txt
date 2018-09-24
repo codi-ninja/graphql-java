@@ -15,6 +15,7 @@
 
 	{allLinks{url}} 
 	{allLinks{url, description}}
+	query links {allLinks {description}}
 	mutation createLink{createLink(url:"http://java.com", description:"Sun Java") {url, description})	 
 
 		
