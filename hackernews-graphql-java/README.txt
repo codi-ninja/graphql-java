@@ -17,6 +17,7 @@
 	{allLinks{url, description}}
 	query links {allLinks {description}}
 	mutation createLink{createLink(url:"http://java.com", description:"Sun Java") {url, description})	 
+	mutation createUser { createUser(name: "devel", authProvider: { "devel@devel.com", password: "secret" }) { id, name } }
 
 		
 
